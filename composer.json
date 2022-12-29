@@ -8,7 +8,7 @@
     "require-dev": {
         "filp/whoops": "^2.14"
     },
-    "license": "MIT LICENSE",
+    "license": "GPL-3.0-only",
     "autoload": {
         "psr-4": {
             "Marcus\\": "src/"
