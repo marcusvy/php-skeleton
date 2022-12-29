@@ -1,6 +1,7 @@
 {
     "name": "marcusvy/php-skeleton",
     "description": "Starter Site",
+    "version": "1.0.0",
     "type": "project",
     "require": {
         "php-di/php-di": "^6.4"
