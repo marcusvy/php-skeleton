@@ -1,0 +1,31 @@
+# Vendor
+/vendor/
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+# Cache, session files and logs (Symfony3)
+/var/cache/*
+/var/log/*
+/var/session/*
+!var/cache/.gitkeep
+!var/log/.gitkeep
+!var/session/.gitkeep
+
+
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
+
+# PHPUnit
+/phpunit.xml
+
+#  data
+/pkg/*
+
+# Composer PHAR
+composer.phar
+
+# Embedded web-server pid file
+/.web-server-pid

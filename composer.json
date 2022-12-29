@@ -1,0 +1,25 @@
+{
+    "name": "marcusvy/php-skeleton",
+    "description": "Starter Site",
+    "type": "project",
+    "require": {
+        "php-di/php-di": "^6.4"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.14"
+    },
+    "license": "MIT LICENSE",
+    "autoload": {
+        "psr-4": {
+            "Marcus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcus Vinícius Cardoso",
+            "email": "marcusvy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
