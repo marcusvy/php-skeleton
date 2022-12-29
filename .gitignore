@@ -13,16 +13,13 @@
 !var/log/.gitkeep
 !var/session/.gitkeep
 
-
-# Parameters
-/app/config/parameters.yml
-/app/config/parameters.ini
-
 # PHPUnit
 /phpunit.xml
 
-#  data
+# Distribution
 /pkg/*
+!/pkg
+!pkg/.gitkeep
 
 # Composer PHAR
 composer.phar
